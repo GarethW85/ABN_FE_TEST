@@ -108,7 +108,7 @@ Make sure you have the following installed on your system:
 
 1. **Clone the repository**
    ```sh
-   git clone https://github.com/GarethW85/FE_ABM_AMRO_2025.git
+   git clone https://github.com/GarethW85/ABN_FE_TEST.git
    cd tvshow-dashboard
    ```
 
