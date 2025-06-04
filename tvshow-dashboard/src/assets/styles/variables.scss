@@ -1,0 +1,244 @@
+// Colors
+$primary: #0ea5e9;
+$primary-dark: #0369a1;
+$primary-light: #7dd3fc;
+$secondary: #94a3b8;
+$success: #10b981;
+$danger: #ef4444;
+$warning: #f59e0b;
+$info: #3b82f6;
+$dark: #0f172a;
+$light: #f8fafc;
+
+// Grayscale
+$gray-100: #f1f5f9;
+$gray-200: #e2e8f0;
+$gray-300: #cbd5e1;
+$gray-400: #94a3b8;
+$gray-500: #64748b;
+$gray-600: #475569;
+$gray-700: #334155;
+$gray-800: #1e293b;
+$gray-900: #0f172a;
+
+// Theme colors
+$body-bg: $gray-900;
+$body-color: $gray-100;
+$text-muted: $gray-400;
+
+// Typography
+$font-family-sans-serif: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+$font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+$font-family-base: $font-family-sans-serif;
+
+$font-size-base: 1rem;
+$font-size-lg: $font-size-base * 1.25;
+$font-size-sm: $font-size-base * 0.875;
+
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-medium: 500;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+
+// Spacing
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: $spacer * 0.25,
+  2: $spacer * 0.5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 4,
+  7: $spacer * 5,
+  8: $spacer * 6,
+  9: $spacer * 8,
+  10: $spacer * 10,
+);
+
+// Border radius
+$border-radius: 0.375rem;
+$border-radius-sm: 0.25rem;
+$border-radius-lg: 0.5rem;
+$border-radius-pill: 50rem;
+
+// Box shadow
+$box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+$box-shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+$box-shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+$box-shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+
+// Transitions
+$transition-base: all 0.2s ease-in-out;
+$transition-fade: opacity 0.15s linear;
+$transition-collapse: height 0.35s ease;
+
+// Z-index
+$zindex-dropdown: 1000;
+$zindex-sticky: 1020;
+$zindex-fixed: 1030;
+$zindex-modal-backdrop: 1040;
+$zindex-modal: 1050;
+$zindex-popover: 1060;
+$zindex-tooltip: 1070;
+
+// Container max widths
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1320px
+);
+
+// Grid breakpoints
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);
+
+// Grid columns
+$grid-columns: 12;
+$grid-gutter-width: 1.5rem;
+
+// Cards
+$card-spacer-y: 1rem;
+$card-spacer-x: 1.25rem;
+$card-title-spacer-y: 0.5rem;
+$card-border-width: 1px;
+$card-border-radius: $border-radius;
+$card-box-shadow: $box-shadow;
+$card-cap-padding-y: 0.5rem;
+$card-cap-padding-x: 1rem;
+$card-bg: $gray-800;
+$card-cap-bg: rgba($black, 0.03);
+
+// Buttons
+$btn-padding-y: 0.5rem;
+$btn-padding-x: 1rem;
+$btn-font-family: $font-family-sans-serif;
+$btn-font-size: $font-size-base;
+$btn-line-height: 1.5;
+$btn-border-width: 1px;
+$btn-font-weight: $font-weight-medium;
+$btn-box-shadow: inset 0 1px 0 rgba($white, 0.15), 0 1px 1px rgba($black, 0.075);
+$btn-focus-width: 0.25rem;
+$btn-focus-color: rgba($primary, 0.25);
+$btn-focus-box-shadow: 0 0 0 $btn-focus-width $btn-focus-color;
+$btn-disabled-opacity: 0.65;
+$btn-active-box-shadow: inset 0 3px 5px rgba($black, 0.125);
+$btn-link-color: $primary;
+$btn-link-hover-color: $primary-dark;
+$btn-link-disabled-color: $gray-600;
+
+// Forms
+$input-bg: $gray-800;
+$input-disabled-bg: $gray-700;
+$input-color: $gray-100;
+$input-border-color: $gray-600;
+$input-focus-bg: $gray-800;
+$input-focus-border-color: $primary;
+$input-focus-color: $gray-100;
+$input-placeholder-color: $gray-500;
+$input-plaintext-color: $body-color;
+
+// Navbar
+$navbar-padding-y: 1rem;
+$navbar-padding-x: 1rem;
+$navbar-nav-link-padding-x: 0.75rem;
+$navbar-brand-font-size: 1.25rem;
+$nav-link-height: 3rem;
+$nav-link-color: $gray-300;
+$nav-link-hover-color: $white;
+$nav-link-disabled-color: $gray-600;
+
+// Dropdowns
+$dropdown-min-width: 10rem;
+$dropdown-padding-y: 0.5rem;
+$dropdown-spacer: 0.125rem;
+$dropdown-bg: $gray-800;
+$dropdown-border-color: $gray-700;
+$dropdown-divider-bg: $gray-700;
+$dropdown-link-color: $gray-300;
+$dropdown-link-hover-color: $white;
+$dropdown-link-hover-bg: rgba($white, 0.1);
+$dropdown-link-active-color: $white;
+$dropdown-link-active-bg: $primary;
+$dropdown-link-disabled-color: $gray-600;
+$dropdown-item-padding-y: 0.25rem;
+$dropdown-item-padding-x: 1.5rem;
+$dropdown-header-color: $gray-400;
+
+// Modals
+$modal-content-bg: $gray-800;
+$modal-content-border-color: $gray-700;
+$modal-backdrop-bg: $black;
+$modal-backdrop-opacity: 0.5;
+$modal-header-border-color: $gray-700;
+$modal-footer-border-color: $gray-700;
+$modal-xl: 1140px;
+$modal-lg: 800px;
+$modal-md: 500px;
+$modal-sm: 300px;
+
+// Alerts
+$alert-bg-scale: -80%;
+$alert-border-scale: -70%;
+$alert-color-scale: 40%;
+$alert-padding-y: 0.75rem;
+$alert-padding-x: 1.25rem;
+$alert-margin-bottom: 1rem;
+$alert-border-radius: $border-radius;
+$alert-link-font-weight: $font-weight-bold;
+$alert-border-width: $border-width;
+
+// Close
+$btn-close-width: 1em;
+$btn-close-height: $btn-close-width;
+$btn-close-padding-x: 0.25em;
+$btn-close-color: $white;
+$btn-close-bg: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$btn-close-color}'><path d='M.293.293a1 1 0 011.414 0L8 6.586 14.293.293a1 1 0 111.414 1.414L9.414 8l6.293 6.293a1 1 0 01-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 01-1.414-1.414L6.586 8 .293 1.707a1 1 0 010-1.414z'/></svg>");
+$btn-close-opacity: 0.5;
+$btn-close-hover-opacity: 0.75;
+$btn-close-focus-opacity: 1;
+$btn-close-disabled-opacity: 0.25;
+$btn-close-white-filter: invert(1) grayscale(100%) brightness(200%);
+
+// Tooltips
+$tooltip-font-size: $font-size-sm;
+$tooltip-max-width: 200px;
+$tooltip-color: $white;
+$tooltip-bg: $dark;
+$tooltip-border-radius: $border-radius;
+$tooltip-opacity: 0.9;
+$tooltip-padding-y: 0.25rem;
+$tooltip-padding-x: 0.5rem;
+$tooltip-margin: 0;
+$tooltip-arrow-width: 0.8rem;
+$tooltip-arrow-height: 0.4rem;
+
+// Popovers
+$popover-font-size: $font-size-sm;
+$popover-bg: $gray-800;
+$popover-max-width: 276px;
+$popover-border-width: 1px;
+$popover-border-color: $gray-700;
+$popover-border-radius: $border-radius-lg;
+$popover-inner-border-radius: calc(#{$popover-border-radius} - #{$popover-border-width});
+$popover-box-shadow: $box-shadow-lg;
+$popover-header-bg: $gray-700;
+$popover-header-color: $white;
+$popover-header-padding-y: 0.5rem;
+$popover-header-padding-x: 0.75rem;
+$popover-body-color: $body-color;
+$popover-body-padding-y: 1rem;
+$popover-body-padding-x: 0.75rem;
+$popover-arrow-width: 1rem;
+$popover-arrow-height: 0.5rem;
+$popover-arrow-color: $popover-bg;
+$popover-arrow-outer-color: $popover-border-color;
